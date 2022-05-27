@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        tools:context=".male.PolActivity"
+        android:background="@drawable/blue1">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Как правильно мыть полы?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.014" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Начиная уборку, максимально освободите пространство. Уберите все лишние предметы, которые находятся на полу. Легкую мебель можно сдвинуть, а небольшие коврики свернуть в рулон.
+Протрите подоконники, столы, технику и другие поверхности, на которых может скапливаться пыль.
+Проведите предварительную сухую уборку. Для этого можно использовать пылесос или специальный моп для сухого сбора пыли.  Сухая уборка значительно сократит время мытья пола и повысит качество чистоты убираемой поверхности."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.612"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="1.Наберите в ведро теплой воды, добавьте моющее средство. Возьмите ведро и наберите в него достаточно воды, чтобы полностью погружать моющую часть швабры. Затем налейте в ведро немного средства для посуды или яблочного уксуса, отбеливателя, нашатырного спирта или другого похожего моющего средства. Как правило, достаточно наливать около 120 мл моющего средства на 4 литра воды.Прежде чем попробовать какое-либо новое моющее средство, внимательно прочитайте информацию на этикетке, чтобы оно точно подходило для вашего пола. Не на всех упаковках это указано, но поищите на этикетке рекомендации о том, в какой пропорции с водой нужно использовать выбранное вами средство."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.612"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="2.Погрузите швабру в ведро с моющим раствором. Опустите швабру в ведро и дайте ей намокнуть. Если швабра очень сухая, может потребоваться несколько минут, чтобы она намокла."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Поднимите швабру и дайте стечь лишней воде. Как только швабра достаточно намокнет, поднимите ее и подержите над ведром. Обычно швабра набирает гораздо больше воды, чем нужно, так что подержите ее над ведром 2–3 секунды, чтобы лишняя вода стекла в ведро. Если хотите, можно выжать швабру, чтобы убрать лишнюю воду."
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=" 4. Мойте пол небольшими участками. Чтобы смыть как можно больше грязи, перемещайте швабру каждый раз на расстояние 10–15 см. Так вы распределите моющее средство по большей площади пола."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=" 5.Продвигайтесь к двери. Так вы точно не наступите на только что вымытые участки пола. Если вы все же наступили на мокрый пол, пройдитесь по этому месту шваброй еще раз, чтобы убрать отпечаток своей подошвы. В узких проходах (коридор, прихожая) сначала помойте по бокам, а затем центр прохода."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="6.Выжмите швабру, когда закончите с уборкой. Как только вы тщательно вымоете пол, возьмите швабру так, чтобы она находилась над ведром и выжмите моющую насадку руками. продолжайте выжимать швабру, пока в ней почти не останется воды.[8] К некоторым швабрам и ведрам в комплекте идет приспособление для выжимания, с которым не нужно выжимать швабру вручную."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="7.Пройдитесь шваброй по полу, чтобы убрать грязную воду. Протрите шваброй каждый помытый участок пола 3–4 раза. Переборщите — и просто начнете размазывать грязную воду по полу. После каждого участка отжимайте швабру, чтобы убрать впитанную ей воду. Возможно, вам понадобится повторить эти действия несколько раз, чтобы полностью высушить полы."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView37"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="101dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:rotationX="0"
+            android:rotationY="180"
+            android:src="@drawable/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.487" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
