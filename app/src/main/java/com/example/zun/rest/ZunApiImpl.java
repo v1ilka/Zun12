@@ -32,7 +32,7 @@ import java.util.Map;
 
 public class ZunApiImpl implements ZunApi {
 //    public  static final String BASE_URL = "http://10.0.2.2";
-    public  static final String BASE_URL = "http://192.168.1.124:8080";
+    public  static final String BASE_URL = "http://192.168.0.109:8080";
     private final Context context_context;
     private Response.ErrorListener errorListener;
 
